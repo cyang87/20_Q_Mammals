@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">MapOwa</string>
+    <string name="action_settings">Settings</string>
+    <string name="yesButton">Yes</string>
+    <string name="noButton">No</string>
+    <string name="firstQuestion">Is it a land animal?</string>
+
+    <string-array name="mainQuestions">
+        <item>Is it a terrestrial or arboreal animal?</item>
+        <item>Is it in the cat family</item>
+        <item>Does it live in the North or South Poles</item>
+        <item>Is it a house pet?</item>
+        <item>4</item>
+        <item>Does it have tusk?</item>
+        <item>Is it in the whale family?</item>
+        <item>4</item>
+        <item>Does it live on the grass land?</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>Is it black and white?</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="noCat">
+        <item>Does it have hooves?</item>
+        <item>Does it have horns?</item>
+        <item>Does it have hair on its skin?</item>
+        <item>Does it have curly hair?</item>
+        <item>Does it have antlers?</item>
+        <item>4</item>
+        <item>Does it have horns?</item>
+        <item>4</item>
+        <item>Is it a herding animal?</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>Does it have tusk?</item>
+    </string-array>
+
+    <string-array name="hasHair">
+        <item>Is it marsupial?</item>
+        <item>Does it hop?</item>
+        <item>Is it a rodent?</item>
+        <item>4</item>
+        <item>Does it have wings?</item>
+        <item>Is it a house pet?</item>
+        <item>Is it a house pet?</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>Does it live in urban sewer?</item>
+        <item>Does it have very long ears?</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="noPet">
+        <item>Is it an ape?</item>
+        <item>Does it have fur or har?</item>
+        <item>Is it a type of bear?</item>
+        <item>Does it weigh over 300 pounds?</item>
+        <item>4</item>
+        <item>Does it live in the North or South Pole?</item>
+        <item>Does it have wings?</item>
+        <item>4</item>
+        <item>Is it carnivore?</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>Does it live in China?</item>
+        <item>4</item>
+        <item>Does it spend most of the time on trees?</item>
+    </string-array>
+
+    <string-array name="noTree">
+        <item>Does it howl?</item>
+        <item>4</item>
+        <item>Does it fart terribly?</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>Does it eat a lot of ants?</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>Does it have spikes?</item>
+    </string-array>
+
+    <string-array name="noAntlers">
+        <item>Can you ride it?</item>
+        <item>Does it live in the desert?</item>
+        <item>Does it have stripes?</item>
+        <item>4</item>
+        <item>Does it move fast?</item>
+        <item>4</item>
+        <item>Does it have long neck?</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>Do people usually eat it?</item>
+    </string-array>
+
+    <string-array name="noGrassland">
+        <item>Does it have spots?</item>
+        <item>Is it the fastest land animal?</item>
+        <item>Is it striped?</item>
+    </string-array>
+
+    <string-array name="noSewer">
+        <item>Does it live in urban sewer</item>
+        <item>4</item>
+        <item>Does it live near water?</item>
+    </string-array>
+
+    <string-array name="mainAnswers">
+        <item>cat</item>
+        <item>lion</item>
+        <item>walrus</item>
+        <item>seal/sea lion</item>
+        <item>killer whale</item>
+        <item>whale</item>
+        <item>dolphin</item>
+    </string-array>
+
+    <string-array name="noCatAnswers">
+        <item>sheep</item>
+        <item>cow</item>
+        <item>goat</item>
+        <item>deer/moose</item>
+        <item>rhinoceros</item>
+        <item>elephant</item>
+        <item>hippopotamus</item>
+    </string-array>
+
+    <string-array name="hasHairAnswers">
+        <item>kangaroo</item>
+        <item>platypus</item>
+        <item>koala</item>
+        <item>hamster</item>
+        <item>rat</item>
+        <item>rabbit</item>
+        <item>dog</item>
+    </string-array>
+
+    <string-array name="noPetAnswers">
+        <item>gorilla</item>
+        <item>baboon</item>
+        <item>chimpanzee</item>
+        <item>homo sapiens</item>
+        <item>polar bear</item>
+        <item>panda</item>
+        <item>bear</item>
+        <item>bat</item>
+        <item>sloth</item>
+    </string-array>
+
+    <string-array name="noTreeAnswers">
+        <item>wolves</item>
+        <item>skunk</item>
+        <item>anteater</item>
+        <item>porcupine</item>
+        <item>alien</item>
+    </string-array>
+
+    <string-array name="noAntlersAnswers">
+        <item>camel</item>
+        <item>horse</item>
+        <item>donkey</item>
+        <item>zebra</item>
+        <item>giraffe</item>
+        <item>pig</item>
+        <item>wort hog</item>
+    </string-array>
+
+    <string-array name="noGrasslandAnswers">
+        <item>cheetah</item>
+        <item>jaguar/leopard</item>
+        <item>tiger</item>
+        <item>puma/cougar/panther</item>
+    </string-array>
+
+    <string-array name="noSewerAnswers">
+        <item>rat</item>
+        <item>beaver/otter</item>
+        <item>squirrel</item>
+    </string-array>
+</resources>
