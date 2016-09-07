@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     question buildNext(String nextTree) {
+        //use switch here instead
         if (nextTree.equals("noGrassland")) { return noGrassland(); }
         else if (nextTree.equals("noAntlers")) { return noAntlers(); }
         else if (nextTree.equals("noCat")) { return noCat();}
@@ -114,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
         question root = new question(Boolean.FALSE, " ");
         root = initTree(root, qs, 4, 0);
 
+        //use for loops and function here when I have time
         root.getYesNext().getNoNext().setTransition();
         root.getYesNext().getNoNext().setQuestion("noCat");
         root.getYesNext().getYesNext().getNoNext().getNoNext().setTransition();

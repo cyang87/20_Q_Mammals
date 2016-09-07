@@ -23,17 +23,17 @@ public class question {
         return this.end;
     }
 
+    //reach the end of questions?
+    Boolean isEnd() {
+        return this.end;
+    }
+
     void setTransition() {
         this.transition = Boolean.TRUE;
     }
 
     Boolean getTransition() {
         return this.transition;
-    }
-
-    //reach the end of questions?
-    Boolean isEnd() {
-        return this.end;
     }
 
     question getYesNext() {
@@ -66,13 +66,5 @@ public class question {
 
     String getQuestion () {
         return this.question;
-    }
-
-    //return next question based on use answer
-    question nextQuestion(Boolean answer){
-        if (answer = Boolean.FALSE) {
-            return this.noNext;
-        }
-        return this.yesNext;
     }
 }
